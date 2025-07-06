@@ -1,0 +1,48 @@
+/* src/index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #e50914;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .movies {
+    padding: 2rem;
+  }
+  
+  .movie-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-card {
+    width: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  
